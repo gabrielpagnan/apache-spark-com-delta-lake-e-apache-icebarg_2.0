@@ -1,0 +1,70 @@
+site_name: Apache Spark com Delta Lake e Apache Iceberg
+site_description: Trabalho Acadêmico — Engenharia de Dados com formatos de tabela abertos
+site_author: Alunos da Pós-Graduação em Engenharia de Dados
+docs_dir: docs
+repo_url: https://github.com/seu-usuario/spark-delta-iceberg-trabalho
+repo_name: spark-delta-iceberg-trabalho
+edit_uri: ""
+
+theme:
+  name: material
+  language: pt
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Alternar para modo escuro
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Alternar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.share
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/seu-usuario/spark-delta-iceberg-trabalho
+
+nav:
+  - Início: index.md
+  - Apache Spark e PySpark: spark.md
+  - Delta Lake: delta.md
+  - Apache Iceberg: iceberg.md

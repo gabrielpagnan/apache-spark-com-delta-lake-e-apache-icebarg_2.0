@@ -1,0 +1,29 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Apache Spark
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# MkDocs
+site/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.env
