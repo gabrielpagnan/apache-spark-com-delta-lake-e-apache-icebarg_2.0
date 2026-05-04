@@ -13,10 +13,9 @@
 
 ## 👥 Alunos
 
-| Nome | RA |
-|------|----|
-| [Nome do Aluno 1] | [RA] |
-| [Nome do Aluno 2] | [RA] |
+| Nome |
+| [Gabriel Matiola Pagnan] |
+| [Pedro Afonso Cardoso Barato] |
 
 **Professor:** Prof. Jorge Lima da Silva
 
